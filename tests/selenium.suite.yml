@@ -1,0 +1,13 @@
+class_name: SeleniumTester
+modules:
+    
+modules:
+   enabled: [WebDriver]
+   config:
+      WebDriver:
+         url: 'http://beta-music-svoy.azurewebsites.net/'
+         browser: firefox
+         window_size: 1024x768
+         delay: 2
+         capabilities:
+             unexpectedAlertBehaviour: 'accept'
